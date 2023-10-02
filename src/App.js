@@ -10,6 +10,8 @@ import Category1 from './components/pages/Category1';
 import Category2 from './components/pages/Category2';
 import Category3 from './components/pages/Category3';
 import Category4 from './components/pages/Category4';
+import Troll from './components/pages/Troll';
+import Sponsorships from './components/pages/Sponsorships';
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
           <Route path='/Category2' element={<Category2/>} />
           <Route path='/Category3' element={<Category3/>} />
           <Route path='/Category4' element={<Category4/>} />
+          <Route path= '/Troll' element={<Troll/>} />
+          <Route path='/Sponsorships' element={<Sponsorships/>} /> 
 
         </Routes>
       </Router>

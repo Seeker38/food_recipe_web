@@ -8,7 +8,7 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
+          Join now for busting meal
         </p>
         <p className='footer-subscription-text'>
           You can unsubscribe at any time.
@@ -29,8 +29,9 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>About Us</h2>
-            <Link to='/sign-up'>How it works</Link>
-            <Link to='/'>Testimonials</Link>
+            {/* <Link to='/sign-up'>How it works</Link> */}
+            <Link to='https://youtu.be/dQw4w9WgXcQ?t=85'>How it works</Link>  {/*rick roll*/}
+            <Link to='/'>Members</Link>
             <Link to='/'>Careers</Link>
             <Link to='/'>Investors</Link>
             <Link to='/'>Terms of Service</Link>
@@ -40,7 +41,7 @@ function Footer() {
             <Link to='/'>Contact</Link>
             <Link to='/'>Support</Link>
             <Link to='/'>Destinations</Link>
-            <Link to='/'>Sponsorships</Link>
+            <Link to='/Sponsorships'>Sponsorships</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
@@ -49,7 +50,7 @@ function Footer() {
             <Link to='/'>Submit Video</Link>
             <Link to='/'>Ambassadors</Link>
             <Link to='/'>Agency</Link>
-            <Link to='/'>Influencer</Link>
+            <Link to='https://www.youtube.com/watch?v=TBTj4vdtqbg'>Influencer</Link> {/* //cat meme */}
           </div>
           <div class='footer-link-items'>
             <h2>Social Media</h2>
@@ -88,7 +89,7 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link youtube'
-              to='/'
+              to='https://www.youtube.com/watch?v=dQw4w9WgXcQ' //never give you up
               target='_blank'
               aria-label='Youtube'
             >
@@ -104,11 +105,11 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link twitter'
-              to='/'
+              to='https://www.tiktok.com/@taytoe._.74/video/7278769585208249606' //smurf cat
               target='_blank'
-              aria-label='LinkedIn'
+              aria-label='Tikkok'
             >
-              <i class='fab fa-linkedin' />
+              <i class='fab fa-tiktok' />
             </Link>
           </div>
         </div>

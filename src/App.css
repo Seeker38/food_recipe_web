@@ -42,3 +42,10 @@
   color: #fff;
   font-size: 100px;
 }
+
+.Troll{
+  /* background: center; */
+  align-items: center;
+  justify-content: center;
+  display: fixed;
+}

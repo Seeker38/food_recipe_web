@@ -1,0 +1,11 @@
+img {
+    width: 50%;
+    height: 50%;
+    display: flex;
+ }
+
+.activeImage{
+    display: "flex";
+    justify-content: "center";
+    align-content: "center";
+}
