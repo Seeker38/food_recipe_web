@@ -34,7 +34,7 @@ function Footer() {
             <Link to='/'>Members</Link>
             <Link to='/'>Careers</Link>
             <Link to='/'>Investors</Link>
-            <Link to='/'>Terms of Service</Link>
+            <Link to='https://youtu.be/nuCIA31LfIU?t=4'>Terms of Service</Link> {/*moscow}
           </div>
           <div class='footer-link-items'>
             <h2>Contact Us</h2>
