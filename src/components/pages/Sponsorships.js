@@ -31,7 +31,7 @@ const Sponsorships = () => {
   
     return (
       <div>
-        <button className='image' onClick={clickEventHandler}>Activate image</button>
+        <button className='activeImage' onClick={clickEventHandler}>Activate image</button>
   
         {isImageActive && <img  src="/images/bank_me_bitch.jpg" alt="BANK" />}
       </div>

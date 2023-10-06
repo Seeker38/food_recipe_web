@@ -12,6 +12,7 @@ import Category3 from './components/pages/Category3';
 import Category4 from './components/pages/Category4';
 import Troll from './components/pages/Troll';
 import Sponsorships from './components/pages/Sponsorships';
+import Members from './components/pages/Members';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path='/Category4' element={<Category4/>} />
           <Route path= '/Troll' element={<Troll/>} />
           <Route path='/Sponsorships' element={<Sponsorships/>} /> 
+          <Route path='/Members' element={<Members/>} />
 
         </Routes>
       </Router>

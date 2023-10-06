@@ -1,0 +1,52 @@
+const images = [
+  {
+    image:
+      'images/Dang1.jpg'
+  },
+  {
+    image:
+      'images/Dang2.jpg'
+  },
+  {
+    image:
+      'images/Dang3.jpg'
+  },
+  {
+    image:
+      'images/Dat1.jpg'
+  },
+  {
+    image:
+      'images/Dat2.jpg'
+  },
+  {
+    image:
+      'images/Dat3.jpg'
+  },
+  {
+    image:
+      'images/Duy1.jpg'
+  },
+  {
+    image:
+      'images/Duy2.jpg'
+  },
+  {
+    image:
+      'images/Duy3.jpg'
+  },
+  {
+    image:
+      'images/img-1.jpg'
+  },
+  {
+    image:
+      'images/img-1.jpg'
+  },
+  {
+    image:
+      'images/img-2.jpg'
+  }
+]
+
+export default images

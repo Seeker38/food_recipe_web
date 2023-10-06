@@ -31,10 +31,10 @@ function Footer() {
             <h2>About Us</h2>
             {/* <Link to='/sign-up'>How it works</Link> */}
             <Link to='https://youtu.be/dQw4w9WgXcQ?t=85'>How it works</Link>  {/*rick roll*/}
-            <Link to='/'>Members</Link>
+            <Link to='/Members'>Members</Link>
             <Link to='/'>Careers</Link>
             <Link to='/'>Investors</Link>
-            <Link to='https://youtu.be/nuCIA31LfIU?t=4'>Terms of Service</Link> {/*moscow}
+            <Link to='https://youtu.be/nuCIA31LfIU?t=5'>Terms of Service</Link> {/*moscow*/}
           </div>
           <div class='footer-link-items'>
             <h2>Contact Us</h2>
@@ -81,7 +81,7 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link instagram'
-              to='/'
+              to='https://www.instagram.com/reel/Cuc-Mb6h330/?igshid=MWZjMTM2ODFkZg==' // comrades
               target='_blank'
               aria-label='Instagram'
             >
