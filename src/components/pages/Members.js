@@ -6,7 +6,7 @@ import './style/styles.css'
 export default function Members() {
   return (
     <div className="App">
-      <video src='/videos/rizz.mp3' autoPlay loop muted/>
+      <video src='/videos/rizz.mp3' autoPlay loop />
       <Canvas>
         <Suspense fallback={null}>
           <Carousel />
